@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIServiceLocatorPresentation", "DIServiceLocatorPresentation\DIServiceLocatorPresentation.csproj", "{5E74B5B8-4CF6-46B7-9493-85C67AA5C416}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIServiceLocatorInfrastructure", "DIServiceLocatorInfrastructure\DIServiceLocatorInfrastructure.csproj", "{84001D2E-1DB3-4734-8E33-367016D4060E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5E74B5B8-4CF6-46B7-9493-85C67AA5C416}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E74B5B8-4CF6-46B7-9493-85C67AA5C416}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E74B5B8-4CF6-46B7-9493-85C67AA5C416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84001D2E-1DB3-4734-8E33-367016D4060E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84001D2E-1DB3-4734-8E33-367016D4060E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84001D2E-1DB3-4734-8E33-367016D4060E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84001D2E-1DB3-4734-8E33-367016D4060E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
