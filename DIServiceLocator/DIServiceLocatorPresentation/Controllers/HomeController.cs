@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DIServiceLocatorInfrastructure.Interfaces;
+using DIServiceLocatorPresentation.App_Start;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,6 +12,10 @@ namespace DIServiceLocatorPresentation.Controllers
     {
         public ActionResult Index()
         {
+            //it's the same idea of the workaround of Method Injection, but we have a new static class
+            //check https://github.com/EmilioIvanMedina/DIMethodInjectionNetFramework4.7.2 
+            var service = ServiceLocator.GetService<ISampleService>();
+            var myName = service.GetName();
             return View();
         }
 
